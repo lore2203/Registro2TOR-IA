@@ -1,5 +1,5 @@
 import './RegisterForm.css'; 
-import robotImage from '../assets/Yarmis.2.png'; 
+import robotImage from '../assets/YARMIS.2.png'; 
 import logoImage from '../assets/Logo-2.png';
 import textoImage from '../assets/Texto-1.png';
 import { useState } from 'react';
