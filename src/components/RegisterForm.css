@@ -168,22 +168,24 @@ p {
   }
 
   .robot-container {
-    order: 1; /* ← Corregido: mostrar el robot debajo del encabezado en móviles */
+    order: 0; 
     justify-content: center;
     width: 100%;
   }
 
   .robot-container img {
     width: 60%;
-    max-width: 250px;
+    max-width: 220px;
     height: auto;
   }
 
   .form-section {
     width: 100%;
-    max-width: 100%;
+    max-width: 400px; 
     padding: 1.5rem;
     border-radius: 16px;
+    margin: 0 auto; 
+    box-sizing: border-box;
   }
 
   .dual-fields {
@@ -206,6 +208,6 @@ p {
   }
 
   .header-bar img:first-child {
-    margin-right: 0; /* ← Añadido para evitar separación visual rara en móviles */
+    margin-right: 0;
   }
 }
