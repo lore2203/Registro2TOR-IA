@@ -1,4 +1,4 @@
-import './styles/main.css';
+import './Styles';
 import RegisterForm from './components/RegisterForm';
 
 function App() {
