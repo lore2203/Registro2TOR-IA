@@ -157,3 +157,45 @@ p {
   font-weight: bold;
   margin-top: 1rem;
 }
+/* === Responsive para pantallas pequeñas === */
+@media (max-width: 768px) {
+  .full-page {
+    flex-direction: column;
+    padding: 1.5rem 1rem;
+    gap: 1.5rem;
+  }
+
+  .robot-container {
+    order: -1;
+    justify-content: center;
+  }
+
+  .robot-container img {
+    width: 200px;
+  }
+
+  .form-section {
+    width: 100%;
+    max-width: 100%;
+    padding: 1.5rem;
+    border-radius: 16px;
+  }
+
+  .dual-fields {
+    flex-direction: column;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+  }
+
+  .header-bar {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .header-titulo {
+    margin-left: 0;
+  }
+}
