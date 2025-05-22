@@ -157,3 +157,57 @@ p {
   font-weight: bold;
   margin-top: 1rem;
 }
+/* === Responsive para pantallas pequeñas === */
+@media (max-width: 768px) {
+  .full-page {
+    flex-direction: column;
+    padding: 1.5rem 1rem;
+    gap: 1.5rem;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .robot-container {
+    order: 0; 
+    justify-content: center;
+    width: 100%;
+  }
+
+  .robot-container img {
+    width: 60%;
+    max-width: 220px;
+    height: auto;
+  }
+
+  .form-section {
+    width: 100%;
+    max-width: 400px; 
+    padding: 1.5rem;
+    border-radius: 16px;
+    margin: 0 auto; 
+    box-sizing: border-box;
+  }
+
+  .dual-fields {
+    flex-direction: column;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+  }
+
+  .header-bar {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .header-titulo {
+    margin-left: 0;
+  }
+
+  .header-bar img:first-child {
+    margin-right: 0;
+  }
+}
